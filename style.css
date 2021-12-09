@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  position: relative;
+}
+.header > h1 {
+  color: #fff;
+  margin-top: 230px;
+  font-family: "Spartan";
+  font-size: 50px;
+}
+
+body {
+  background-color: hsl(222, 26%, 31%);
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: center;
+  margin: auto;
+  display: inline block;
+}
+.keypad {
+  padding: 25px;
+  background-color: hsl(223, 31%, 20%);
+  border-radius: 20px;
+  margin-top: 30px;
+}
+button {
+  width: 80px;
+  height: 60px;
+  border-radius: 10px;
+  margin: 9px;
+  border: none;
+  font-size: 20px;
+  color: hsl(223, 31%, 20%);
+  font-family: "Spartan";
+}
+button :hover {
+  background-color: hsl(222, 26%, 31%);
+  color: #fff;
+}
+
+button:active {
+  text-shadow: 0 0 5px #ffd;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.9);
+  -webkit-transform: translateY(3px);
+  transform: translateY(3px);
+  -webkit-animation: none;
+  animation: none;
+}
+
+input {
+  width: 450px;
+  height: 100px;
+  color: white;
+  text-align: right;
+  padding-right: 20px;
+  font-size: 32px;
+  font-family: "Spartan";
+  border-radius: 10px;
+  border: none;
+  background-color: hsl(224, 36%, 15%);
+}
+@media (max-width: 470px) {
+  .header > h1 {
+    color: #fff;
+    margin-top: 180px;
+    font-family: "Spartan";
+    font-size: 40px;
+  }
+  input {
+    width: 380px;
+  }
+
+  button {
+    width: 60px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header > h1 {
+    color: #fff;
+    margin-top: 180px;
+    font-family: "Spartan";
+    font-size: 35px;
+  }
+
+  input {
+    width: 305px;
+  }
+
+  button {
+    margin: 7px;
+    width: 50px;
+    height: 50px;
+  }
+  .keypad {
+    padding: 15px;
+  }
+}
