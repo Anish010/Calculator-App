@@ -81,14 +81,18 @@ input {
 @media (max-width: 470px) {
   .header > h1 {
     color: #fff;
-    margin-top: 180px;
+    margin-top: 200px;
     font-family: "Spartan";
-    font-size: 40px;
+    font-size: 35px;
   }
   input {
     width: 380px;
   }
 
+  #result {
+    width: 312px;
+    justify-content: center;
+  }
   button {
     width: 60px;
     height: 50px;
@@ -100,11 +104,16 @@ input {
     color: #fff;
     margin-top: 180px;
     font-family: "Spartan";
-    font-size: 35px;
+    font-size: 30px;
   }
 
   input {
     width: 305px;
+  }
+
+  #result {
+    width: 255px;
+    justify-content: center;
   }
 
   button {
