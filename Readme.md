@@ -1,4 +1,4 @@
-# Calculator app
+# Standard Calculator 
 
 ## Table of contents
 
